@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,intellij,maven,eclipse,netbeans
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,intellij,maven,eclipse,netbeans
+# Created by https://www.toptal.com/developers/gitignore/api/intellij,vscode,eclipse,maven,netbeans
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,vscode,eclipse,maven,netbeans
 
 ### Eclipse ###
 .metadata
@@ -183,6 +183,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
 
 ### NetBeans ###
 **/nbproject/private/
@@ -202,4 +203,4 @@ nbdist/
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,intellij,maven,eclipse,netbeans
+# End of https://www.toptal.com/developers/gitignore/api/intellij,vscode,eclipse,maven,netbeans

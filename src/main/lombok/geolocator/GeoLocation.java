@@ -1,5 +1,8 @@
 package geolocator;
 
+/**
+ * Class for wrapping geolocation information about an IP address.
+ */
 @lombok.Data
 public class GeoLocation {
 
@@ -16,6 +19,5 @@ public class GeoLocation {
     private String regionName;
     private String timezone;
     private String zip;
-
 
 }
